@@ -9,7 +9,7 @@ import {
   EuiText,
   EuiTextColor,
 } from "@elastic/eui";
-import logo from "../assets/logo.png";
+import kothaLogo from "../assets/kothaLogo.png";
 import animation from "../assets/animation.gif";
 
 import React from "react";
@@ -66,12 +66,20 @@ function Login() {
                 <EuiImage src={animation} alt="logo" />
               </EuiFlexItem>
               <EuiFlexItem>
-                <EuiImage src={logo} alt="logo" size="230px" />
+                <EuiImage
+                  src={kothaLogo}
+                  alt="logo"
+                  size="150px"
+                  style={{ marginBottom: "30px" }}
+                />
+
                 <EuiSpacer size="xs" />
                 <EuiText textAlign="center" grow={false}>
                   <h3>
-                    <EuiTextColor>One Platform to</EuiTextColor>
-                    <EuiTextColor color="#0b5cff"> connect</EuiTextColor>
+                    <EuiTextColor>
+                      <EuiTextColor color="#0b5cff">Kotha</EuiTextColor> Is One
+                      Platform to connect
+                    </EuiTextColor>
                   </h3>
                 </EuiText>
                 <EuiSpacer size="l" />
